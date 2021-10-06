@@ -4,6 +4,10 @@
     display: flex;
 }
 
+.d-none {
+    display: none;
+}
+
 
 /* Flex */
 
@@ -17,6 +21,10 @@
 
 .flex-column {
     flex-direction: column;
+}
+
+.flex-row-reverse {
+    flex-direction: row-reverse;
 }
 
 

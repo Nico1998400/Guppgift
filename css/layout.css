@@ -145,6 +145,26 @@
     margin-bottom: var(--distance-15);
 }
 
+.mr-4,
+.mx-4 {
+    margin-right: var(--distance-4);
+}
+
+.mr-4,
+.mx-4 {
+    margin-left: var(--distance-4);
+}
+
+.mr-6,
+.mx-6 {
+    margin-right: var(--distance-6);
+}
+
+.mr-6,
+.mx-6 {
+    margin-left: var(--distance-6);
+}
+
 
 /* Padding */
 
@@ -255,6 +275,10 @@ nav div a:not(:first-child) {
 
 .border-radius {
     border-radius: var(--border-radius-sm);
+}
+
+.border-bottom-xs {
+    border-bottom: var(--border-xs);
 }
 
 
