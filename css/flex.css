@@ -27,6 +27,10 @@
     flex-direction: row-reverse;
 }
 
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
 
 /* Align & Justify */
 
