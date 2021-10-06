@@ -1,0 +1,59 @@
+/* Widths */
+
+.max-width {
+    max-width: 192rem;
+}
+
+
+/* Margin */
+
+.mr-auto,
+.mx-auto {
+    margin-right: auto;
+}
+
+.ml-auto,
+.mx-auto {
+    margin-left: auto;
+}
+
+
+/* Padding */
+
+.p4 {
+    padding: var(--distance-4);
+}
+
+.p5 {
+    padding: var(--distance-5);
+}
+
+.p6 {
+    padding: var(--distance-6);
+}
+
+.p8 {
+    padding: var(--distance-8);
+}
+
+.p12 {
+    padding: var(--distance-12);
+}
+
+.p15 {
+    padding: var(--distance-15);
+}
+
+
+/* Colored bar */
+
+.bar-height {
+    height: .3rem;
+}
+
+
+/* Images */
+
+.logo-width {
+    max-width: 13rem;
+}
