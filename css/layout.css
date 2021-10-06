@@ -15,6 +15,16 @@
     position: absolute !important;
 }
 
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.centerXY {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 
 /* Margin */
 
@@ -199,6 +209,10 @@
     text-decoration: none;
 }
 
+.text-center {
+    text-align: center;
+}
+
 .text-size-xxs {
     font-size: var(--display-xxs);
 }
@@ -293,4 +307,51 @@ nav div a:not(:first-child) {
 
 .logo-width {
     max-width: 13rem;
+}
+
+
+/* Slidshadow */
+
+.slider-width {
+    width: 400%;
+    /* 100% per image */
+}
+
+.slider-container {
+    width: 25%;
+    /* Display the first image */
+}
+
+.slider-image {
+    width: 100%;
+    object-fit: cover;
+}
+
+
+/*.slider-animation {
+    animation: 30s slider-keyframes infinite;
+}*/
+
+@keyframes slider-keyframes {
+    0% {
+        left: 0%;
+    }
+    15% {
+        left: -100%;
+    }
+    30% {
+        left: -200%;
+    }
+    40% {
+        left: -300%;
+    }
+    60% {
+        left: -200%;
+    }
+    75% {
+        left: -100%;
+    }
+    100% {
+        left: 0%;
+    }
 }
