@@ -17,31 +17,188 @@
     margin-left: auto;
 }
 
+.mt-0,
+.my-0 {
+    margin-top: var(--distance-0);
+}
+
+
+/* 0 rem */
+
+.mt-0,
+.my-0 {
+    margin-bottom: var(--distance-0);
+}
+
+.mt-1,
+.my-1 {
+    margin-top: var(--distance-1);
+}
+
+
+/* .25 rem */
+
+.mt-1,
+.my-1 {
+    margin-bottom: var(--distance-1);
+}
+
+.mt-2,
+.my-2 {
+    margin-top: var(--distance-2);
+}
+
+
+/* .5 rem */
+
+.mt-2,
+.my-2 {
+    margin-bottom: var(--distance-2);
+}
+
+.mt-4,
+.my-4 {
+    margin-top: var(--distance-4);
+}
+
+
+/* 1 rem */
+
+.mt-4,
+.my-4 {
+    margin-bottom: var(--distance-4);
+}
+
+.mt-6,
+.my-6 {
+    margin-top: var(--distance-6);
+}
+
+
+/* 1.5 rem */
+
+.mt-6,
+.my-6 {
+    margin-bottom: var(--distance-6);
+}
+
+.mt-8,
+.my-8 {
+    margin-top: var(--distance-8);
+}
+
+
+/* 2 rem */
+
+.mt-8,
+.my-8 {
+    margin-bottom: var(--distance-8);
+}
+
+.mt-10,
+.my-10 {
+    margin-top: var(--distance-10);
+}
+
+
+/* 2.5 rem */
+
+.mt-10,
+.my-10 {
+    margin-bottom: var(--distance-10);
+}
+
+.mt-12,
+.my-12 {
+    margin-top: var(--distance-12);
+}
+
+
+/* 3 rem */
+
+.mt-12,
+.my-12 {
+    margin-bottom: var(--distance-12);
+}
+
+.mt-15,
+.my-15 {
+    margin-top: var(--distance-15);
+}
+
+
+/* 4 rem */
+
+.mt-15,
+.my-15 {
+    margin-bottom: var(--distance-15);
+}
+
 
 /* Padding */
 
-.p4 {
+.p-4 {
     padding: var(--distance-4);
 }
 
-.p5 {
+.p-5 {
     padding: var(--distance-5);
 }
 
-.p6 {
+.p-6 {
     padding: var(--distance-6);
 }
 
-.p8 {
+.p-8 {
     padding: var(--distance-8);
 }
 
-.p12 {
+.p-12 {
     padding: var(--distance-12);
 }
 
-.p15 {
+.p-15 {
     padding: var(--distance-15);
+}
+
+
+/* Typography */
+
+.text-decoration-none {
+    text-decoration: none;
+}
+
+.lh-sm {
+    line-height: var(--line-height-sm);
+}
+
+.lh-md {
+    line-height: var(--line-height-md);
+}
+
+.lh-lg {
+    line-height: var(--line-height-lg);
+}
+
+
+/* Cricle */
+
+.circle {
+    border-radius: 100%;
+}
+
+
+/* Shadows */
+
+.shadow-sm {
+    box-shadow: var(--shadow-small-light);
+}
+
+
+/* Buttons */
+
+nav div a:not(:first-child) {
+    margin-left: var(--distance-12);
 }
 
 
