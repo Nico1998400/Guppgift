@@ -46,7 +46,7 @@
 
 /* 0 rem */
 
-.mt-0,
+.mb-0,
 .my-0 {
     margin-bottom: var(--distance-0);
 }
@@ -59,7 +59,7 @@
 
 /* .25 rem */
 
-.mt-1,
+.mb-1,
 .my-1 {
     margin-bottom: var(--distance-1);
 }
@@ -72,7 +72,7 @@
 
 /* .5 rem */
 
-.mt-2,
+.mb-2,
 .my-2 {
     margin-bottom: var(--distance-2);
 }
@@ -85,7 +85,7 @@
 
 /* 1 rem */
 
-.mt-4,
+.mb-4,
 .my-4 {
     margin-bottom: var(--distance-4);
 }
@@ -98,7 +98,7 @@
 
 /* 1.5 rem */
 
-.mt-6,
+.mb-6,
 .my-6 {
     margin-bottom: var(--distance-6);
 }
@@ -111,7 +111,7 @@
 
 /* 2 rem */
 
-.mt-8,
+.mb-8,
 .my-8 {
     margin-bottom: var(--distance-8);
 }
@@ -124,7 +124,7 @@
 
 /* 2.5 rem */
 
-.mt-10,
+.mb-10,
 .my-10 {
     margin-bottom: var(--distance-10);
 }
@@ -137,20 +137,20 @@
 
 /* 3 rem */
 
-.mt-12,
+.mb-12,
 .my-12 {
     margin-bottom: var(--distance-12);
-}
-
-.mt-15,
-.my-15 {
-    margin-top: var(--distance-15);
 }
 
 
 /* 4 rem */
 
 .mt-15,
+.my-15 {
+    margin-top: var(--distance-15);
+}
+
+.mb-15,
 .my-15 {
     margin-bottom: var(--distance-15);
 }
@@ -212,6 +212,16 @@
     padding-left: var(--distance-12);
 }
 
+.pr-4,
+.px-4 {
+    padding-right: var(--distance-4);
+}
+
+.pl-4,
+.px-4 {
+    padding-left: var(--distance-4);
+}
+
 
 /* Typography */
 
@@ -221,6 +231,10 @@
 
 .text-center {
     text-align: center;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
 }
 
 .text-size-xxs {
@@ -277,6 +291,10 @@
     box-shadow: var(--shadow-small-light);
 }
 
+.shadow-lg {
+    box-shadow: var(--shadow-large-light);
+}
+
 
 /* Buttons */
 
@@ -303,6 +321,14 @@ nav div a:not(:first-child) {
 
 .border-bottom-xs {
     border-bottom: var(--border-xs);
+}
+
+.border-sm {
+    border: var(--border-sm);
+}
+
+.border-transparent {
+    border: var(--border-transparent);
 }
 
 
@@ -370,5 +396,17 @@ nav div a:not(:first-child) {
 /* features */
 
 .f-width {
-    max-width: 33%;
+    max-width: 32%;
+}
+
+.icon-feature {
+    width: 7.6rem;
+    height: 7.6rem;
+    padding: 0.375rem;
+}
+
+.icon-circle {
+    width: 6.2rem;
+    height: 6.2rem;
+    line-height: 6rem;
 }
