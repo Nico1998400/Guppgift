@@ -288,6 +288,11 @@
     border-radius: 100%;
 }
 
+.circle-lg {
+    width: 15rem;
+    height: 15rem;
+}
+
 
 /* Shadows */
 
