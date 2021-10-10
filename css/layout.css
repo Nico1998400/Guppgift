@@ -38,6 +38,10 @@
     margin-left: auto;
 }
 
+.m-6 {
+    margin: var(--distance-6);
+}
+
 .mt-0,
 .my-0 {
     margin-top: var(--distance-0);
