@@ -45,7 +45,7 @@
     --distance-16: 4rem;
     /* Shadows */
     --shadow-small-light: .15rem .15rem 0 rgba(0, 0, 0, .1);
-    --shadow-small-light: .25rem .25rem 0 rgba(0, 0, 0, .1);
+    --shadow-large-light: .25rem .25rem 0 rgba(0, 0, 0, .1);
     /* Borders */
     --border-xs-white: 0.1rem solid var(--color-white);
     --border-xs: .1rem solid var(--color-light);

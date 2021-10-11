@@ -12,6 +12,10 @@
     max-width: 49%;
 }
 
+.min-width-xxl {
+    min-width: 95%;
+}
+
 
 /* Position */
 
@@ -459,4 +463,9 @@ nav div a:not(:first-child) {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+.icon-form-control {
+    right: 10px;
+    top: 10px;
 }
