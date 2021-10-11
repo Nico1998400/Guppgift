@@ -4,6 +4,10 @@
     max-width: 192rem;
 }
 
+.card-width {
+    max-width: 61rem;
+}
+
 
 /* Position */
 
@@ -241,6 +245,10 @@
     text-transform: uppercase;
 }
 
+.text-bold {
+    font-weight: bold;
+}
+
 .text-size-xxs {
     font-size: var(--display-xxs);
 }
@@ -352,6 +360,10 @@ nav div a:not(:first-child) {
 
 .logo-width {
     max-width: 13rem;
+}
+
+.img-lg-width {
+    max-width: 60%;
 }
 
 
