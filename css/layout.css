@@ -8,6 +8,10 @@
     max-width: 61rem;
 }
 
+.width-lg {
+    max-width: 49%;
+}
+
 
 /* Position */
 
@@ -44,6 +48,10 @@
 
 .m-6 {
     margin: var(--distance-6);
+}
+
+.m-15 {
+    margin: var(--distance-15);
 }
 
 .mt-0,
