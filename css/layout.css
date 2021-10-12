@@ -410,10 +410,9 @@ nav div a:not(:first-child) {
     object-fit: cover;
 }
 
-
-/*.slider-animation {
+.slider-animation {
     animation: 30s slider-keyframes infinite;
-}*/
+}
 
 @keyframes slider-keyframes {
     0% {
